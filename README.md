@@ -23,9 +23,9 @@ python onnx_export.py --model-dir=models/apple
 ```
 You will find a file inside `/models/apple` with name `resnet34.onnx`. The file will depends on the pretrained model name that you use during the training.You can also download the file from my drive,
 ```
-wget https://drive.google.com/uc?id=1JDL9Ttwepzze0nQJobEIxUsownitDeAF
+gdown https://drive.google.com/uc?id=1JDL9Ttwepzze0nQJobEIxUsownitDeAF
 or
-wget https://drive.google.com/uc?id=1irmM1qMHo178qSXRtO-36UOSY3JxqKeC
+gdown https://drive.google.com/uc?id=1irmM1qMHo178qSXRtO-36UOSY3JxqKeC
 ```
 
 ***4) To run the inference:***
