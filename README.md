@@ -36,5 +36,6 @@ You will find a file inside `/models/apple` with name `resnet34.onnx`. The file 
 >```
 >python imagenet.py --model=models/apple/resnet34.onnx --input_blob:input_0 --output_blob:output_0 --labels=data/apple/labels.txt /dev/video0
 >```
-To check which webcam available in your jetson, run `/dev/video*` in the terminal before running inference code
+To check which webcam available in your jetson, run `/dev/video*` in the terminal before running inference code.
+
 **Please comment any improvement that can be add into the code.Thank you for using this programs.** 
