@@ -9,5 +9,6 @@ To train your dataset, you need to make sure that all library inside `train.py` 
 
 To start training your dataset, run this:
 >python train.py --model-dir=models/apple --epochs=50 --batch-size=4 --workers=2 --lr=0.001 --arch=resnet34 data/apple
+
 You can adjust the epoch, batch size, learning rate and pre-trained model accordingly
 
