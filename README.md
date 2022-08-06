@@ -21,7 +21,8 @@ You can adjust the epoch, batch size, learning rate and pre-trained model accord
 ```
 python onnx_export.py --model-dir=models/apple
 ```
-You will find a file inside `/models/apple` with name `resnet34.onnx`. The file will depends on the pretrained model name that you use during the training.
+You will find a file inside `/models/apple` with name `resnet34.onnx`. The file will depends on the pretrained model name that you use during the training.You can also download the file from my drive,
+
 
 ***4) To run the inference:***
 >from image:
