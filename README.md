@@ -1,6 +1,8 @@
 # GreenRed_AppleClassification
 This is my proposed project during the KPT-PACE Machine Learning workshop. This project objective to help colorblind people differentiate between green and red apple and also between rooten one and fresh one
 
+![Fresh apple](https://lzd-img-global.slatic.net/g/p/48778fdc015e4fb6f51de46bbcd8e9cd.jpg_720x720q80.jpg_.webp)
+
 To download this project to your Jetson Nano
 ```
 git clone https://github.com/Syukta8/GreenRed_AppleClassification.git
