@@ -1,7 +1,7 @@
 # GreenRed_AppleClassification
 This is my proposed project during the KPT-PACE Machine Learning workshop. This project objective to help colorblind people differentiate between green and red apple and also between fresh and rotten one
 
-![Fresh apple](https://lzd-img-global.slatic.net/g/p/48778fdc015e4fb6f51de46bbcd8e9cd.jpg_720x720q80.jpg_.webp)
+![Fresh apple](https://lzd-img-global.slatic.net/g/p/48778fdc015e4fb6f51de46bbcd8e9cd.jpg_720x720q80.jpg_.webp](https://www.kindpng.com/picc/m/153-1533376_red-apple-and-green-apple-png-download-red.png)
 
 ***1) Download project to your Jetson Nano:***
 ```
