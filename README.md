@@ -10,7 +10,8 @@ It also can be download on your local machine to do the training beforehand. Inp
 To train your dataset, you need to make sure that all library inside `train.py` are installed inside your docker(Jetson Nano) or environment(Local Machine)
 
 To start training your dataset, run this:
->python train.py --model-dir=models/apple --epochs=50 --batch-size=4 --workers=2 --lr=0.001 --arch=resnet34 data/apple
-
+```
+python train.py --model-dir=models/apple --epochs=50 --batch-size=4 --workers=2 --lr=0.001 --arch=resnet34 data/apple
+```
 You can adjust the epoch, batch size, learning rate and pre-trained model accordingly
 
