@@ -22,3 +22,9 @@ You can adjust the epoch, batch size, learning rate and pre-trained model accord
 python onnx_export.py --model-dir=models/apple
 ```
 You will find a file inside `/models/apple` with name `resnet34.onnx`. The file will depends on the pretrained model name that you use during the training.
+
+***4) To run the inference:***
+>from image:
+>```
+>python imagenet.py --model=models/apple/resnet34.onnx --input_blob:input_0 --output_blob:output_0 --labels=data/apple/labels.txt image.jpg
+>```
