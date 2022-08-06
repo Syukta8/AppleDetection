@@ -9,7 +9,7 @@ git clone https://github.com/Syukta8/GreenRed_AppleClassification.git
 ```
 
 It also can be download on your local machine to do the training beforehand. Input your data set inside `/data` folder. You can search the dataset on [Kaggle](https://www.kaggle.com/datasets?search=apple+fruit)
-To train your dataset, you need to make sure that all library inside `train.py` are installed inside your docker(Jetson Nano) or environment(Local Machine)
+.To train your dataset, you need to make sure that all library inside `train.py` are installed inside your docker(Jetson Nano) or environment(Local Machine)
 
 ## To start training your dataset, run this:
 ```
