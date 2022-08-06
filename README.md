@@ -1,5 +1,5 @@
 # GreenRed_AppleClassification
-This is my proposed project during the KPT-PACE Machine Learning workshop. This project objective to help colorblind people differentiate between green and red apple and also between fresh and rotten one
+This is my proposed project during the KPT-PACE Machine Learning workshop. This project objective to help colorblind people differentiate between green and red apple and also between fresh and rotten one. Please note that all the code below need to be run in terminal and to be safe, run inside your Docker or Environment
 
 ![Fresh apple](https://www.kindpng.com/picc/m/153-1533376_red-apple-and-green-apple-png-download-red.png)
 
@@ -28,3 +28,13 @@ You will find a file inside `/models/apple` with name `resnet34.onnx`. The file 
 >```
 >python imagenet.py --model=models/apple/resnet34.onnx --input_blob:input_0 --output_blob:output_0 --labels=data/apple/labels.txt image.jpg
 >```
+>from video
+>```
+>python imagenet.py --model=models/apple/resnet34.onnx --input_blob:input_0 --output_blob:output_0 --labels=data/apple/labels.txt video.mp4
+>```
+>from webcam
+>```
+>python imagenet.py --model=models/apple/resnet34.onnx --input_blob:input_0 --output_blob:output_0 --labels=data/apple/labels.txt /dev/video0
+>```
+To check which webcam available in your jetson, run `/dev/video*` in the terminal before running inference code
+**Please comment any improvement that can be add into the code.Thank you for using this programs.** 
