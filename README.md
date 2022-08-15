@@ -7,9 +7,13 @@ This is my proposed project during the KPT-PACE Machine Learning workshop. This 
 ```
 git clone https://github.com/Syukta8/GreenRed_AppleClassification.git
 ```
+```
+pip install -r requirements.txt
+```
 
-It also can be download on your local machine to do the training beforehand. Input your data set inside `/data` folder. You can search the dataset on [Kaggle](https://www.kaggle.com/datasets?search=apple+fruit)
-.To train your dataset, you need to make sure that all library inside `train.py` are installed inside your docker(Jetson Nano) or environment(Local Machine)
+It also can be download on your local machine to do the training beforehand. Use `pip` command to install all required modules.
+Put your dataset inside `/data` folder. You can search the dataset on [Kaggle](https://www.kaggle.com/datasets?search=apple+fruit)
+.To train your dataset, you need to make sure that all library inside `requirements.txt` are installed inside your docker(Jetson Nano) or environment(Local Machine)
 
 ***2) To start training your dataset, run this:***
 ```
