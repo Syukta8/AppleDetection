@@ -47,4 +47,5 @@ gdown https://drive.google.com/uc?id=1irmM1qMHo178qSXRtO-36UOSY3JxqKeC
 >```
 To check which webcam available in your jetson, run `/dev/video*` in the terminal before running inference code.
 
-**Please comment any improvement that can be add into the code.Thank you for using this programs.** 
+**Please comment any improvement that can be add into the code.Thank you for using this programs.** \n
+Here my full video on this project: [syukta8](https://youtu.be/sNbLS7WBIto)
