@@ -49,5 +49,6 @@ To check which webcam available in your jetson, run `/dev/video*` in the termina
 
 **Please comment any improvement that can be add into the code.Thank you for using this programs.**
 
-Here my full video on this project: 
+Here my full video on this project:
+
 [![Syukta8](https://img.youtube.com/vi/sNbLS7WBIto/0.jpg)](https://youtu.be/sNbLS7WBIto)
